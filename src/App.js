@@ -18,7 +18,7 @@ const walletConnector = new NodeWalletConnect(
 );
 
 function App() {
-
+  // Connect
   const connect = () => {
     if (!walletConnector.connected) {
       // create new session
